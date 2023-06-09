@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.container{
+    text-align:center;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    border: dashed;
+    border-width:2px;
+    border-color:#45C1E6;
+    /* border-color: #E679C6; */ 
+}
+
+
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.title{
+    margin:auto;
+    color: white;
+    font-family: 'FreeSerif';
+    letter-spacing: 0.5px;
+}
+
+/* change this to change color of pattern */
+.layer{
+    filter: hue-rotate(60deg);
+    /* filter: hue-rotate(180deg); */
+}
